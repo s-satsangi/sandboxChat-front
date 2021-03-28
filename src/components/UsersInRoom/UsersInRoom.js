@@ -6,7 +6,7 @@ const UsersInRoom = ({ users }) => (
   <div className="usersContainer">
     <div>
       <h1>
-        This is a Generic Realtime Chat App
+        Welcome to yacapp --> YetAnotherChatAPP
         <span role="img" aria-label="emoji">
           💬
         </span>
