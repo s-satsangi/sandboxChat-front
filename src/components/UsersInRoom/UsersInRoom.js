@@ -32,7 +32,7 @@ const UsersInRoom = ({ users }) => (
           <h2>
             {users.map(({ name }) => (
               <div key={name} className="activeItem">
-                <img src={onlineIcon} />
+                <img src={onlineIcon} alt="online" />
                 {name}
               </div>
             ))}
