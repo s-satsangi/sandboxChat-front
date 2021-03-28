@@ -17,15 +17,15 @@ const Chat = ({ location }) => {
   const [messages, setMessages] = useState([]);
   const ENDPOINT = "https://yacapp.herokuapp.com/";
   //When in development => "localhost:5000";
-  const connectionOptions = {
-    "force new connection": true,
-    reconnectionAttempts: "Infinity",
-    timeout: 10000,
-    transports: ["websocket"],
-  };
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
+    const connectionOptions = {
+      "force new connection": true,
+      reconnectionAttempts: "Infinity",
+      timeout: 10000,
+      transports: ["websocket"],
+    };
 
     socket = io(ENDPOINT, connectionOptions);
 
@@ -39,7 +39,7 @@ const Chat = ({ location }) => {
 
       socket.off();
     };
-  }, [ENDPOINT, location.search, connectionOptions]);
+  }, [ENDPOINT, location.search]);
 
   useEffect(() => {
     socket.on("message", (message) => {
