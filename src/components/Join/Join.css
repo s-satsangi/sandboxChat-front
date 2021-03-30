@@ -24,6 +24,7 @@ body {
 
 .joinInnerContainer {
   width: 20%;
+  color: firebrick;
 }
 
 .joinInput {

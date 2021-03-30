@@ -10,6 +10,7 @@ const Join = () => {
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
+        <h3>Welcome to YACApp --{">"} YetAnotherChatAPP</h3>
         <h1>Join</h1>
         <div>
           <input
