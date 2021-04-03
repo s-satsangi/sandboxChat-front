@@ -18,10 +18,10 @@ const InfoBar = (props) => (
       <div className="leftInnerContainer">
         <span className="logo">YetAnotherChatAPP </span>
       </div>
-      <a href="/">
-        <img src={closeIcon} alt="close" />
-      </a>
     </div>
+    <a href="/">
+      <img src={closeIcon} alt="close" />
+    </a>
   </div>
 );
 
