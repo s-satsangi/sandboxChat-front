@@ -5,6 +5,8 @@
   color: grey;
   height: 60%;
   justify-content: space-between;
+  /* align-items: flex-end; */
+  font-size: 0.7em;
 }
 
 .activeContainer {
