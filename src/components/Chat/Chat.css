@@ -12,9 +12,14 @@
   justify-content: space-between;
   background: #ffffff;
   border-radius: 8px;
-  height: 60%;
+  height: 80%;
   width: 35%;
 }
+
+/* .users {
+  align-items: flex-end;
+  font-size: 0.2em;
+} */
 
 @media (min-width: 320px) and (max-width: 480px) {
   .outerContainer {

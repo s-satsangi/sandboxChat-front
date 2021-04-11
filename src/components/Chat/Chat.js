@@ -71,8 +71,9 @@ const Chat = ({ location }) => {
           setMessage={setMessage}
           sendMessage={sendMessage}
         />
+
+        <UsersInRoom users={users} className="users" />
       </div>
-      <UsersInRoom users={users} />
     </div>
   );
 };
