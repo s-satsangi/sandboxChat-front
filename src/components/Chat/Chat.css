@@ -16,11 +16,6 @@
   width: 35%;
 }
 
-/* .users {
-  align-items: flex-end;
-  font-size: 0.2em;
-} */
-
 @media (min-width: 320px) and (max-width: 480px) {
   .outerContainer {
     height: 100%;

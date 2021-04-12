@@ -1,7 +1,7 @@
 .usersContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
+  margin-left: 10px;
   color: grey;
   height: 60%;
   justify-content: space-between;
